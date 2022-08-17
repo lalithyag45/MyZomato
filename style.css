@@ -48,7 +48,7 @@ header{
     justify-content: center;
     margin-top: 7vh;
     align-items: center;
-   
+    gap:2rem;
 }
 .logo
 {
@@ -313,6 +313,11 @@ footer{
     .navbar{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .items{
+        display: flex;
         justify-content: center;
         align-items: center;
     }
